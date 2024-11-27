@@ -1,0 +1,102 @@
+/* Overall container for the employee dashboard */
+.employee-dashboard {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+  background-color: #f9f9f9;
+}
+
+/* Image container styling */
+.image-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 475px;
+  object-fit: cover;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.overlay-text {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.overlay-button {
+  background-color: #00796b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.overlay-button:hover {
+  background-color: #004d40;
+}
+
+/* Role section and changerole section container */
+.content-container {
+  padding: 20px;
+  flex: 1; /* Allow this section to grow */
+  z-index: 1; /* Ensure it doesn't overlap the image */
+}
+
+/* Styling for Roles section */
+.roles-section {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.roles-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Request Role button */
+.request-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.request-button:hover {
+  background-color: #388e3c;
+}
+
+/* Footer styling */
+footer {
+  margin-top: auto; /* Stick footer to the bottom */
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+/* Instead of fixed height */
+.section {
+  height: auto; /* Let the height adjust dynamically */
+  min-height: 100vh; /* Minimum height to fill the screen */
+}

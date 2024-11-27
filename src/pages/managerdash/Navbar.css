@@ -1,0 +1,107 @@
+/* Reset margins and paddings for body and html */
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* General Navbar Styling */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    width: 100%; /* Ensures navbar spans full width */
+    position: relative; /* Keep navbar fixed at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure navbar stays on top of content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional for aesthetics */
+  }
+  
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+  
+  .navbar-links {
+    display: flex;
+    justify-content: center;
+    flex: 1; /* To allow the links to be centered */
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+  }
+  
+  /* Profile Image Section */
+  .navbar-profile {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .profile-image {
+    width: 40px; /* Visible size of the profile picture */
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    cursor: pointer;
+    object-fit: cover; /* Ensures the image fits within the circular boundary */
+    margin-right: 27px; /* Adds a small gap from the right side of the navbar */
+  }
+  
+  /* Profile Details Dropdown */
+  .profile-details {
+    position: absolute;
+    top: 50px;
+    right: 0px; /* Adjust this to center the dropdown relative to the image */
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    display: none; /* Initially hidden */
+    z-index: 10; /* To ensure it appears above other elements */
+  }
+  
+  .profile-details p {
+    margin: 5px 0;
+  }
+  
+  .profile-details p strong {
+    font-weight: bold;
+  }
+  
+  /* Show profile details on hover */
+  .navbar-profile:hover .profile-details {
+    display: block;
+  }
+  
+  /* Navbar Enhancements */
+  .navbar-profile img {
+    transition: transform 0.2s ease;
+  }
+  
+  .navbar-profile:hover img {
+    transform: scale(1.1); /* Slightly enlarge the image on hover */
+  }
+  

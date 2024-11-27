@@ -1,0 +1,41 @@
+/* Ensure the entire body takes the full height of the page */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Wrap the content and footer in a flexbox container */
+  .box {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make sure the page takes at least the full viewport height */
+  }
+  
+  /* Main content styles */
+  .content {
+    flex: 1; /* This makes sure the content takes up the remaining space */
+  }
+  
+  /* Footer Styling */
+  .footer {
+    background-color: #333; /* Dark background color */
+    color: white; /* White text */
+    text-align: center; /* Center-align text */
+    padding: 20px 0; /* Add padding around the content */
+    font-family: 'Poppins', sans-serif; /* Use the same font */
+  }
+  
+  .footer p {
+    margin: 0; /* Remove default margin */
+    font-size: 14px; /* Set a smaller font size */
+  }
+  
+  .footer a {
+    color: #4caf50; /* Green color for links */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* Underline link on hover */
+  }
+  

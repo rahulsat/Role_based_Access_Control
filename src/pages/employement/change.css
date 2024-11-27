@@ -1,0 +1,78 @@
+/* General Styling for the Page */
+body {
+    font-family: 'Poppins', sans-serif; /* Using Poppins for the whole body */
+  }
+  
+  /* Custom Heading */
+  .custom-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #333;
+    text-align: left;
+    margin-bottom: 1rem;
+    padding-left: 30px;
+    padding: 15px;
+  }
+  
+  /* Image padding */
+  .imgp {
+    padding: 15px;
+  }
+  
+  /* Flexbox for layout */
+  .fl {
+    display: flex;
+    float: left;
+  }
+  
+  /* Custom styling */
+  .custom {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    justify-content: end;
+    padding: 20px;
+    padding-left: 300px;
+  }
+  
+  /* Paragraph with padding and text formatting */
+  .pp {
+    padding: 30px 150px;
+    justify-content: center;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 5vh;
+  }
+  
+  /* Button Container (Centering the Button) */
+  .button-container {
+    display: flex;
+    justify-content: end; /* Center horizontally */
+    align-items: end; /* Center vertically */
+    height: 10vh; /* Use full viewport height */
+    text-align: end;
+    padding-right: 120px;
+  }
+  
+  /* Styling for the 'Request Admin' Button */
+  .request-admin-button {
+    background-color: #4caf50; /* Green background */
+    color: white; /* White text */
+    font-family: 'Poppins', sans-serif; /* Modern font */
+    font-size: 18px; /* Adjust font size */
+    padding: 12px 24px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth hover effects */
+  }
+  
+  /* Hover effect for the 'Request Admin' Button */
+  .request-admin-button:hover {
+    background-color: #45a049; /* Slightly darker green */
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  
+  /* Add Google Fonts (optional) */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');

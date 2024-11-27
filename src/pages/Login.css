@@ -1,0 +1,98 @@
+/* Enhanced CSS with background color and visual improvements */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e0f7fa; /* Light blue background */
+}
+
+.login-form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-form h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #00796b; /* Teal color for the heading */
+}
+
+.login-form input {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #e0f7fa; /* Light blue background */
+  color: #333;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 0.8rem;
+  background: #007bff; /* Blue background */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+  background: #0056b3; /* Darker blue on hover */
+}
+
+.message {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.links {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.link-button {
+  background: none;
+  color: #007bff;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.link-button:hover {
+  color: #0056b3;
+}
+
+.select-group {
+  margin-bottom: 15px;
+}
+
+.select-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.select-group select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background-color: #ffffff; /* White background */
+}
+
+.select-group select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}

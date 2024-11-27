@@ -1,0 +1,71 @@
+/* Full-page height for proper footer positioning */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Container for the dashboard layout */
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the container spans the full height of the viewport */
+  }
+  
+  /* Main content area */
+  .content {
+    flex: 1; /* Makes the content take up the remaining space between navbar and footer */
+    padding: 20px;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .footer a {
+    color: #4caf50;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Overlay content styles */
+  .image-container {
+    position: relative;
+  }
+  
+  .overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  
+  .overlay-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .overlay-button:hover {
+    background-color: #0056b3;
+  }
+  

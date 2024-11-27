@@ -1,0 +1,48 @@
+.manage-teams-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .teams-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .teams-table th, .teams-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .teams-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .delete-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #e60000;
+  }
+  
+  .meet-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .meet-button:hover {
+    background-color: #45a049;
+  }
+  
+  select {
+    padding: 5px;
+  }
+  

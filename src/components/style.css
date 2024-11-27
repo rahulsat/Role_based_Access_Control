@@ -1,0 +1,69 @@
+/* About.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+  }
+  
+  .roles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 0;
+  }
+  
+  .role-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .role-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .role-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .role-description {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .navbar {
+    background-color: #2c3e50;
+    padding: 10px 20px;
+    color: #fff;
+    margin: 0; /* Remove margin */
+    position: fixed; /* Ensure the navbar stays at the top */
+    width: 100%;
+    z-index: 1000; /* Ensure the navbar is on top */
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: inline-block;
+  }
+  
+  .navbar a:hover {
+    background-color: #34495e;
+    border-radius: 5px;
+  }
+  
+  /* Adjust the roles-container to account for fixed navbar */
+  .roles-container {
+    margin-top: 60px; /* Adjust based on the height of the navbar */
+  }
+  
