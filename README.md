@@ -1,3 +1,10 @@
+In this role based access control project, it starts with a sign up page you can directly click on login the you entered into the login page and now login with some random email and password but choose the role accordingly (Employee, Team Leader, Manager , Admin ) for each has different UI so select that accordingly and login.
+In Employee UI, You can see a attractive UI in which contains home, about , roles and contact s page will be there. And if you want to upgrade your role to any stream like (Front end , backend developer etc.) and send a request to admin and you can change. Also you can explore various different roles in Roles page and in the About us page you know about company details. And also you can change the roles ,timings in  the contact us page.
+In Team Leader's  page, You can assign tasks to the employee's and also you are in the position to change the roles of the employees but not the timings also you can choose your own team member and make a call with them.
+In Manager .page, you can see all the teams which are working in different streams and also you can delete a particular team and make a new team and assign new projects.
+In Admin page, you can see all the requests from Employees, Team leader ,Managers where the Employees can requests you to change from one role to another and timings like morning shift and afternoon shift and also leave requests.
+from team leaders they requests for domain based projects and assigning of new team members with good knowledge or freshers
+from managers they asks to shift work location or allocation of new equipment etc. and also they asks for promotions.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
