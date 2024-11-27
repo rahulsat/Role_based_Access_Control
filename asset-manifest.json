@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Role_based_Access_Control/static/css/main.a327ac85.css",
+    "main.js": "/Role_based_Access_Control/static/js/main.35e1c911.js",
+    "static/media/off.jpg": "/Role_based_Access_Control/static/media/off.146af48c526ce257d350.jpg",
+    "static/media/software.png": "/Role_based_Access_Control/static/media/software.be39d3b50c83bce88f43.png",
+    "static/media/bacjend.png": "/Role_based_Access_Control/static/media/bacjend.e21c1e99d319d79634e2.png",
+    "static/media/teams.png": "/Role_based_Access_Control/static/media/teams.1dbe4fc6b042d63caa2d.png",
+    "static/media/fullstack.png": "/Role_based_Access_Control/static/media/fullstack.6ef713176aab040c2fe2.png",
+    "static/media/manger.png": "/Role_based_Access_Control/static/media/manger.ae0646c6d0a84c8c0abe.png",
+    "static/media/network.png": "/Role_based_Access_Control/static/media/network.82e2805abe584bd0d0bc.png",
+    "static/media/datanl.png": "/Role_based_Access_Control/static/media/datanl.d060d549f88b25a60b80.png",
+    "static/media/imageper.png": "/Role_based_Access_Control/static/media/imageper.7f0d9e6341e99daf9fe0.png",
+    "static/media/ds.png": "/Role_based_Access_Control/static/media/ds.2de171ee2a20ff5cd170.png",
+    "static/media/frontend.png": "/Role_based_Access_Control/static/media/frontend.137c855eaae5356790e2.png",
+    "static/media/cloud.png": "/Role_based_Access_Control/static/media/cloud.0709198342793cb56634.png",
+    "static/media/emp.jpg": "/Role_based_Access_Control/static/media/emp.1b844ba8a2d4dd728193.jpg",
+    "index.html": "/Role_based_Access_Control/index.html",
+    "main.a327ac85.css.map": "/Role_based_Access_Control/static/css/main.a327ac85.css.map",
+    "main.35e1c911.js.map": "/Role_based_Access_Control/static/js/main.35e1c911.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a327ac85.css",
+    "static/js/main.35e1c911.js"
+  ]
+}
